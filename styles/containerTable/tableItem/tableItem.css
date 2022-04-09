@@ -1,0 +1,118 @@
+.table-item {
+  width: 35.5rem;
+  height: 47rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  align-self: center;
+  box-shadow: 1px 1px var(--gray);
+}
+
+.table-item-basic {
+  height: 49rem;
+}
+
+.plan-type {
+  width: 100%;
+  height: 17%;
+  padding: 3rem 0 2rem 3rem;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 1.5rem;
+}
+.plan-type-basic {
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2.2rem;
+}
+
+.button-popular {
+  height: 3.2rem;
+  width: 9.4rem;
+  color: #ffffff;
+  background-color: var(--blue);
+  border-radius: 40px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.plan-type-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.title-basic {
+  font-size: 2rem;
+  color: var(--blue);
+}
+
+.content-table {
+  height: 85%;
+  padding: 0 3rem 4.3rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-price-description {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 2.5rem;
+}
+
+.content-price {
+  margin-bottom: 1rem;
+}
+.price {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.price strong {
+  font-size: 3.6rem;
+}
+
+.month-text {
+  font-size: 1.8rem;
+  font-family: 400;
+  color: var(--gray);
+  margin-left: 5px;
+}
+
+.content-list {
+  height: 100%;
+  padding-top: 2rem;
+}
+
+.content-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.item-text {
+  margin-left: 1.5rem;
+}
+
+.button-sign {
+  height: 5.9rem;
+  width: 100%;
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  background-color: transparent;
+  color: var(--blue);
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button-sign-basic {
+  background-color: var(--blue);
+  color: #ffffff;
+}
+
+button:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,15 @@
+.container-table {
+  width: 100%;
+  display: flex;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 428px) {
+  .container-table {
+    row-gap: 4rem;
+  }
+}
